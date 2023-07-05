@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.app-store-heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 55px;
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.input-search-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 40px;
+}
+.input-search {
+  background-color: transparent;
+  height: 50px;
+  width: 520px;
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  border: 2px solid #7b8794;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: none;
+}
+.search-container {
+  background-color: transparent;
+  height: 50px;
+  width: 40px;
+  border: 2px solid #7b8794;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding-right: 40px;
+  padding-left: 20px;
+  border-left: none;
+}
+.search-image {
+  height: 30px;
+  width: 30px;
+}
+.tab-button-items {
+  display: flex;
+  flex-direction: row;
+}
+.app-unordered-items {
+  width: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
